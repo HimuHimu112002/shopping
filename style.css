@@ -8,7 +8,7 @@
         position: fixed;
         bottom: 0;
         right: 25px;
-        z-index: 1;
+        z-index: 10;
         padding-bottom: 25px;
         display: none;
     }
@@ -66,7 +66,7 @@
         transform: translateY(-50%);
         transition: .25s all ease-in-out;
         cursor: pointer;
-        z-index: 0;
+        z-index: 10;
     }
     .indicator i{
         color: #fff;
@@ -91,6 +91,9 @@
 body{
     font-family: 'Bebas Neue', cursive;
     background-color: #39289b;   
+}
+.owl-carousel{
+    z-index: 1;
 }
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -784,6 +787,7 @@ body{
     width: 100%;
     height: 100%;
     background: #1550cf;
+    z-index: 11;
 
 }
   
