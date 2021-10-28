@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
 
@@ -200,7 +201,7 @@
       <section class="new_collection py-5">
         <div class="container">
           <div class="row text-center mb-5">
-            <h1>New Collection of headphone</h1>
+            <h1 class="wow bounceInLeft">New Collection of headphone</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae quia nemo ut error provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum accusamus corrupti nam perspiciatis facilis soluta fugit, rerum unde nisi?</p>
           </div>
           <div class="row">
@@ -590,7 +591,7 @@
     <section class="new_collection py-5">
       <div class="container">
         <div class="row text-center mb-5">
-          <h1>New Collection of mobile phone</h1>
+          <h1 class="wow bounceInLeft">New Collection of mobile phone</h1>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam repudiandae quia nemo ut error provident.</p>
 
           <div class="product_menu d-flex justify-content-center">
@@ -1043,7 +1044,7 @@
   <section class="blog_section py-5">
     <div class="container">
       <div class="row text-center text-capitalize">
-        <h1>Our Latest Blog</h1>
+        <h1 class="wow flipOutX">Our Latest Blog</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor tempora saepe voluptas,</p>
       </div>
       <div class="row mt-5">
@@ -1090,7 +1091,7 @@
       <div class="container">
         <div class="row text-center d-flex justify-content-center align-items-center">
           <div class="col-md-6">
-            <h1>Newsletter Subscription</h1>
+            <h1 class="wow bounceInRight">Newsletter Subscription</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum aspernatur, similique.</p>
             <form action="#">
               <input type="email" placeholder="Enter Your Email.." required>
@@ -1217,7 +1218,7 @@
                       </div>
                         <div class="main_content">
                           <div class="img_price">
-                            <span> Price : $55.00</span>
+                            <span>Price : $55.00</span>
                           </div>
                           <div class="select mb-3">
                             <select>
@@ -1245,7 +1246,7 @@
     <section class="best_product py-5">
         <div class="container">
           <div class="row text-center">
-            <h1>Best Sellers</h1>
+            <h1 class="wow bounceInRight">Best Sellers</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sequi veniam dolor molestias blanditiis ut?</p>
           </div>
             <div class="row mt-5">
@@ -1523,7 +1524,7 @@
       </script>
       <script>
         $('.js-preloader').preloadinator({
-          minTime: 3000
+          minTime: 1000
         });
 
         // back to up
@@ -1544,5 +1545,20 @@
             document.body.classList.toggle('java');
         })
       </script>
+
+<script src="js/wow.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+      boxClass:     'wow',      // default
+      animateClass: 'animated', // default
+      offset:       0,          // default
+      mobile:       false,             
+      live:         true        // default
+    }
+  )
+wow.init();
+</script>
+<script src="js/css3-animate-it.js"></script>
   </body>
 </html>
